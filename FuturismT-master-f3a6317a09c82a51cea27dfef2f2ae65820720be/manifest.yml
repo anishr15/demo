@@ -1,9 +1,9 @@
 ---
 applications:
-- name: Asap_Dev_BOT
+- name: AsapBot
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   
   env:
     CONVERSATION_WORKSPACE_ID: 599a6736-62cc-4f7d-864d-517d2c2eaa68
-    CAR_SERVICE_HOST: Asap_Dev_BOT.mybluemix.net
+    CAR_SERVICE_HOST: AsapBot.eu-gb.mybluemix.net
